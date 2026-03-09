@@ -1,0 +1,64 @@
+.home-hero {
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+  url("https://images.unsplash.com/photo-1615634262410-33d9c29dfdc4");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 65px;
+}
+
+.hero-content p {
+  color: #ddd;
+  margin: 20px 0;
+  max-width: 500px;
+}
+
+.hero-content button {
+  padding: 14px 30px;
+  background: #ffa41c;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.why-us {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px 100px;
+  background: white;
+}
+
+.why-card {
+  padding: 25px;
+  background: #111;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.featured {
+  padding: 70px 100px;
+  background: #f9f9f9;
+}
+
+.testimonial {
+  padding: 60px;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+}

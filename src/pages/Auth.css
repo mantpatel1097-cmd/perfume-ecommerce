@@ -1,0 +1,67 @@
+/* Full screen center layout */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #111, #222);
+  font-family: Arial, sans-serif;
+}
+
+/* Card box */
+.auth-box {
+  background: #ffffff;
+  padding: 35px;
+  width: 340px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.auth-box h3 {
+  color: #28a745;
+}
+
+/* Input fields */
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.auth-box input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+/* Buttons */
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #333;
+}
+
+.auth-box button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}

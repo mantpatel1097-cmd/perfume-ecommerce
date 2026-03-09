@@ -1,0 +1,72 @@
+.checkout-container {
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* 📍 Address */
+.address-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.address-box h2 {
+  margin-bottom: 15px;
+}
+
+.address-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* 🧾 Summary */
+.summary-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.payment {
+  margin-top: 15px;
+}
+
+.payment label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.place-order {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #ffa41c;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .checkout-grid {
+    grid-template-columns: 1fr;
+  }
+}

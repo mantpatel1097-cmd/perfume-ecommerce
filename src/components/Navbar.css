@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  align-items: center;      /* ⭐ vertical center */
+  justify-content: space-between;
+  padding: 12px 30px;
+  background: #111;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;     /* ⭐ vertical center */
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -14px;
+  background: #f08804; /* Amazon orange */
+  color: #000;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.auth-btn {
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.signup {
+  background: #ffa41c;
+  color: black;
+}
+
+.logo a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+

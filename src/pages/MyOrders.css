@@ -1,0 +1,40 @@
+.myorders-container {
+  padding: 40px 80px;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.order-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.order-status {
+  font-weight: bold;
+}
+
+.order-items p {
+  margin: 5px 0;
+}
+
+.cancel-btn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  opacity: .8;
+}
