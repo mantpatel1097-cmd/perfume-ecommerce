@@ -90,11 +90,7 @@ function Shop() {
 
           <div className="card" key={p._id}>
 
-            <img
-              src={`http://localhost:5000${p.image}`}
-              alt={p.name}
-            />
-
+            <img src={`https://perfume-api-8wsi.onrender.com${p.image}`} />
             <h3>{p.name}</h3>
 
             <p className="price">₹{p.price}</p>

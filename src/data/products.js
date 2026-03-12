@@ -1,6 +1,6 @@
-import perfume1 from "../assets/perfume.PNG";
-import perfume2 from "../assets/perfume.PNG";
-import perfume3 from "../assets/perfume.PNG";
+import perfume1 from "../assets/perfume.png";
+import perfume2 from "../assets/perfume.png";
+import perfume3 from "../assets/perfume.png";
 
 const products = [
   {
